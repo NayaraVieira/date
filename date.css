@@ -1,0 +1,52 @@
+
+
+h1 {
+    color: rgb(0, 174, 255);
+    text-align: center;
+    margin-top: 200px;
+}
+
+button {
+    border: none;
+    padding: 20px 35px 20px 35px;
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+    color: goldenrod;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    block-size: auto;
+    display: block;
+    margin-left: auto;
+    
+
+}
+
+button:hover {
+    text-align: center;
+    background-color: goldenrod;
+    color: red
+}
+
+.botaoSim {
+    width: 105px;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    right: 250;
+    left: 0;
+    top: -310;
+    margin: auto;
+}
+
+.botaoNao {
+    width: 105px;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 250;
+    top: -310;
+    margin: auto;
+}
